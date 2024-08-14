@@ -1,0 +1,18 @@
+[03-Jun-2022 17:33:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: .env values containing spaces must be surrounded by quotes. in /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php:172
+Stack trace:
+#0 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(122): CodeIgniter\Config\DotEnv->sanitizeValue('Database Name')
+#1 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(75): CodeIgniter\Config\DotEnv->normaliseVariable('database.defaul...')
+#2 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(43): CodeIgniter\Config\DotEnv->parse()
+#3 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/bootstrap.php(130): CodeIgniter\Config\DotEnv->load()
+#4 /home/hulkckxy/public_html/index.php(28): require('/home/hulkckxy/...')
+#5 {main}
+  thrown in /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php on line 172
+[03-Jun-2022 17:33:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: .env values containing spaces must be surrounded by quotes. in /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php:172
+Stack trace:
+#0 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(122): CodeIgniter\Config\DotEnv->sanitizeValue('Database Name')
+#1 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(75): CodeIgniter\Config\DotEnv->normaliseVariable('database.defaul...')
+#2 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php(43): CodeIgniter\Config\DotEnv->parse()
+#3 /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/bootstrap.php(130): CodeIgniter\Config\DotEnv->load()
+#4 /home/hulkckxy/public_html/index.php(28): require('/home/hulkckxy/...')
+#5 {main}
+  thrown in /home/hulkckxy/public_html/vendor/codeigniter4/framework/system/Config/DotEnv.php on line 172
